@@ -1,0 +1,44 @@
+.about{
+    color:#0A994C;
+    font-size: 35px;
+    margin-left: 20px;
+
+}
+
+.text-a{
+    height:300px;
+    width:700px;
+    /*border:1px solid red;*/
+    margin-top: 40px;
+    margin-left: 700px;
+    color: rgb(148, 144, 146);
+    
+    
+}
+
+.line-a{
+    border-top:1px solid #0A994C ;
+    width:25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+   
+  
+    
+}
+.box-a{
+    display: flex;
+    flex-direction: row;
+}
+
+.line-long{
+
+    width:1000px;
+    border-top: 1px solid rgb(54, 47, 47);
+    margin-left: 200px;
+    margin-right: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}

@@ -1,0 +1,212 @@
+.tech-h{
+    color:#0A994C ;
+    font-size: 35px;
+    margin-top: 1000px;
+}
+
+.line-t{
+    border-top: 1px solid #0A994C ;
+    width:30px;
+    margin-top: 1025px;
+}
+
+.box-t{
+    display:flex;
+    flex-direction: row;
+}
+
+.html-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.html{
+    
+    margin-top: 8px;
+   margin-left: 10px;
+    color:red;
+    font-size:50px;
+
+}
+
+.css-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.css{
+    
+    margin-top: 8px;
+   margin-left: 10px;
+    color:cyan;
+    font-size:50px;
+
+}
+
+.js-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.js{
+    
+    margin-top: 8px;
+   margin-left: 10px;
+    color:orange;
+    font-size:50px;
+
+}
+
+.react-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.react{
+    
+    margin-top: 8px;
+   margin-left: 10px;
+    color:cyan;
+    font-size:50px;
+
+}
+
+.tailwind-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.tailwind{
+    
+    margin-top: 8px;
+   margin-left: 10px;
+    color:rgb(47, 47, 188);
+    font-size:50px;
+
+}
+
+.cpp-b{
+    height:70px;
+    width:70px;
+    border:2px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.cpp{
+    
+   margin-top: 8px;
+   margin-left: 10px;
+    color:rgb(98, 24, 130);
+    font-size:50px;
+
+}
+
+.components-h{
+    display:flex;
+    flex-direction: row;
+    margin-top: 100px;
+    gap:50px;
+    margin-left: 400px;
+}
+
+.lines-long{
+
+    width:1000px;
+    border-top: 1px solid rgb(54, 47, 47);
+    margin-left: 200px;
+    margin-right: 30px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+
+
+.progress-circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.circle {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+.mask, .fill {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.mask {
+    clip: rect(0px, 120px, 120px, 60px);
+}
+
+.mask .fill {
+    clip: rect(0px, 60px, 120px, 0px);
+    background-color: #3498db;
+}
+
+.mask.full, .fill.fix {
+    clip: rect(auto, auto, auto, auto);
+}
+
+.inset-circle {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+.progress-circle[data-progress="75"] .mask.full .fill {
+    transform: rotate(135deg);
+}
+
+.progress-circle[data-progress="75"] .mask.half .fill {
+    transform: rotate(180deg);
+}
+
+.progress-circle[data-progress="75"] .mask.half .fill.fix {
+    transform: rotate(45deg);
+}
+
+.percentage {
+    font-size: 1.5em;
+    color: #3498db;
+}

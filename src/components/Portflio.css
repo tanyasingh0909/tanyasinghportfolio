@@ -1,0 +1,174 @@
+.port-h{
+    color:#0A994C ;
+    font-size: 35px;
+    margin-top:30px;
+
+}
+
+.parts{
+    margin-top: 0;
+    display:flex;
+    flex-direction:column;
+}
+
+.line-p{
+    border-top: 1px solid #0A994C ;
+    width:30px;
+    margin-top: 55px;
+}
+
+.box-p{
+    display:flex;
+    flex-direction: row;
+}
+
+.myedu{
+    display:flex;
+    flex-direction: row;
+    margin-top:200px;
+    gap:20px;
+    font-size: 25px;
+}
+
+.myprojects{
+    display:flex;
+    flex-direction: row;
+    margin-top:100px;
+    gap:20px;
+    font-size: 25px;
+}
+
+.internships{
+    display:flex;
+    flex-direction: row;
+    margin-top:500px;
+    gap:20px;
+    font-size: 25px;
+}
+
+.logo1{
+
+    color:goldenrod;
+    font-size: 40px;
+}
+
+.logo2{
+
+    color:goldenrod;
+    font-size: 40px;
+}
+
+.logo3{
+
+    color:goldenrod;
+    font-size: 40px;
+}
+
+.timeline {
+    position: relative;
+    width: 600px;
+    padding: 20px 0;
+    margin-left: 0px;
+    margin-top:50px;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: goldenrod;
+    transform: translateX(-50%);
+    height:400px;
+}
+
+.timeline-event {
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.timeline-event:nth-child(odd) {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-event:nth-child(even) {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-date {
+    font-size: 18px;
+    color: goldenrod;
+}
+
+/*.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}*/
+.timeline-content{
+font-size:15px;
+margin-top: 10px;
+
+}
+
+.timeline-content::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 10px;
+    height: 10px;
+    background: goldenrod;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgb(137, 127, 127);
+}
+
+.timeline-event:nth-child(odd) .timeline-content::before {
+    right: -25px;
+}
+
+.timeline-event:nth-child(even) .timeline-content::before {
+    left: -25px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.para{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(148, 144, 146);
+}
+
+.education-background{
+    height:800px;
+    width:850px;
+  /*  border:1px solid red;*/
+}
+
+
+.container-p{
+    height:300px;
+    width:400px;
+    border:1px solid red;
+
+}
+
+.container-main{
+    gap:30px;
+    display:flex;
+    flex-direction: row;
+
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 150px;
+}
+
