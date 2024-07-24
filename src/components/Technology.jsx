@@ -5,13 +5,15 @@ import { TbBrandCss3 } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 import { RiTailwindCssLine } from "react-icons/ri";
 import { TbBrandCpp } from "react-icons/tb";
+import { BiLogoGoLang } from "react-icons/bi";
+import { FaPython } from "react-icons/fa6";
 
 const Technology = () => {
   return (
     <div>
          <div class='box-t'>
-        <div class='line-t'></div>
-    <h1 class='tech-h '> Technologies</h1> 
+        <div class='line-tech'></div>
+    <h1 class='tech-h '> Technologies Used</h1> 
 
     </div>
 
@@ -21,24 +23,13 @@ const Technology = () => {
         <div  class='js-b'><div class='js'><RiJavascriptLine  /></div></div>
         <div  class='react-b'><div class='react'><RiReactjsLine /></div></div>
         <div  class='tailwind-b'><div class='tailwind'><RiTailwindCssLine  /></div></div>
+        <div  class='go-b'><div class='go'>< BiLogoGoLang  /></div></div>
+        <div  class='python-b'><div class='python'><  FaPython /></div></div>
         <div  class='cpp-b'><div class='cpp'><TbBrandCpp /></div></div>
     </div>
 
     
-    <div class="progress-circle" data-progress="75">
-        <div class="circle">
-            <div class="mask full">
-                <div class="fill"></div>
-            </div>
-            <div class="mask half">
-                <div class="fill"></div>
-                <div class="fill fix"></div>
-            </div>
-        </div>
-        <div class="inset-circle">
-            <span class="percentage">75%</span>
-        </div>
-    </div>
+   
     <div class='lines-long'></div>
        
 

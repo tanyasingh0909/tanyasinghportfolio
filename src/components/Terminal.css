@@ -1,0 +1,93 @@
+.terminal {
+    background: #1e1e1e;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
+    margin: 20px auto;
+    margin-top:150px;
+  }
+  
+  .terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .terminal-buttons {
+    display: flex;
+  }
+  
+  .button {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .red {
+    background: #ff5c5c;
+  }
+  
+  .yellow {
+    background: #ffbd4c;
+  }
+  
+  .green {
+    background: #00ca56;
+  }
+  
+  .terminal-title {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .terminal-content {
+    background: #000;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 300px;
+  }
+  
+  .terminal-line {
+    margin: 5px 0;
+  }
+  
+  .terminal-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .prompt {
+    margin-right: 10px;
+  }
+  
+  .terminal-input input {
+    background: none;
+    border: none;
+    color: #00ff00;
+    outline: none;
+    flex-grow: 1;
+  }
+  
+ 
+  .terminal-head{
+    color:#0A994C ;
+    font-size: 35px;
+    margin-top:200px;
+
+}
+.line-t{
+  border-top: 1px solid #0A994C ;
+  width:30px;
+  margin-top: 225px;
+}
+.box-t{
+  display:flex;
+  flex-direction: row;
+ 
+}

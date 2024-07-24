@@ -1,0 +1,462 @@
+/* src/ContactForm.css 
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #28a745;
+  }
+  */
+
+
+  .compon{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+  }
+
+  .line-heading{
+    border-top: 1px solid #0A994C;
+    width:25px;
+    margin-top: 30px;
+    
+  }
+
+  .contact-form{
+    border:1px solid  rgb(34, 4, 68);
+    height:550px;
+    width:450px;
+    margin-left: 00px;
+    margin-top: 120px;
+    margin-right: 400px;
+    position:absolute;
+    right:-250px;
+    place-items: center;
+    box-shadow: 6px 6px 6px 6px black;
+}
+
+.contact-form:hover{
+    height:600px;
+    width:500px;
+    border:1px solid  #0A994C;
+    box-shadow: 4px 4px 4px 4px #0A994C;
+}
+
+.form-group{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    margin-top: 20px;
+    
+}
+
+
+
+.name{
+    color:goldenrod;
+    margin-top: 25px;
+    margin-left: 60px;
+    
+}
+
+.message{
+    color:goldenrod;
+    margin-top: 70px;
+
+    margin-left: 60px;
+}
+
+.email{
+    color:goldenrod;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.subject{
+    color:goldenrod;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.heading-1{
+    font-size:25px;
+    color:#0A994C;
+    margin-top: 10px;
+}
+
+.send-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: goldenrod;
+    margin-left:180px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    height:30px;
+    width:75px;
+   /* border:1px solid rgb(34, 4, 68);;*/
+    box-shadow: 6px 6px black;
+    margin-top: 8px;
+
+  }
+  
+  .send-btn:hover {
+    background-color: goldenrod;
+    color:black;
+    font-weight:700;
+    box-shadow: 4px 4px 4px 4px #0A994C;
+
+  }
+
+  .status {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #28a745;
+    margin-left: 120px;
+  }
+
+
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 50%;
+    padding: 10px;
+    border-bottom: 1px solid goldenrod;
+    border-radius: 4px;
+    background: none;
+   
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    resize: none;
+  }
+
+
+.cont-h{
+    color:#0A994C ;
+    font-size: 35px;
+    margin-top: 0px;
+
+  
+    width:500px;
+    height:70px;
+}
+
+.line-cont{
+    border-top: 1px solid #0A994C ;
+    width:30px;
+    margin-top: 25px;
+}
+
+.box-cont{
+    display:flex;
+    flex-direction: row;
+    margin-top:150px;
+   
+}
+
+.new{
+
+    height:200px;
+    width:400px;
+    /*border:1px solid red;*/
+margin-top:160px;
+margin-left: 100px;
+position:absolute;
+left:10px;
+
+
+.unique{
+    display:flex;
+    flex-direction: column;
+}
+ 
+}
+
+.contact-form-container{
+
+    display:flex;
+    flex-direction: row;
+}
+
+.bada-box{
+    display:flex;
+    flex-direction: row;
+    gap:00px;
+}
+
+.newcomp-1{
+    display:flex;
+    flex-direction: row;
+    gap:25px;
+    font-size: 20px;
+}
+
+.earth{
+    font-size:18px;
+    color:rgba(240, 248, 255, 0.452);
+}
+.mail{
+    font-size:18px;
+    color:rgba(240, 248, 255, 0.452);
+
+}
+.location-icon{
+color:#0A994C;
+font-size: 25px;
+}
+
+.earth-icon{
+    color:#2847e2;
+    }
+
+    .mail-logo{
+
+        color:#0A994C;
+        font-size: 25px;
+    }
+
+
+.newcomp2{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap:25px;
+}
+
+.chota-div{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.newcomp3{
+   /* border:1px solid red;*/
+    height:80px;
+    width:600px;
+    margin-top: 20px;
+    margin-left: 0px;
+    gap:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:relative;
+    left:-140px;
+    
+}
+
+
+  
+
+/*.discord-div{
+
+    height:50px;
+    width:50px;
+    
+    background-color:black;
+    border:2px solid goldenrod;
+    border-radius: 10px;
+
+}
+
+.instagram-div{
+
+    height:50px;
+    width:50px;
+    border:2px solid goldenrod;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.linkedin-div{
+
+    height:50px;
+    width:50px;
+    border:2px solid goldenrod;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.telegram-div{
+
+    height:50px;
+    width:50px;
+    border:2px solid goldenrod;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.whatsapp-div{
+
+    height:50px;
+    width:50px;
+    border:2px solid goldenrod;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.github-div{
+
+    height:50px;
+    width:50px;
+    border:2px solid goldenrod;
+    background-color: black;
+    border-radius: 10px;
+
+}
+*/
+
+
+.discord{
+    color:rgb(108, 108, 117);
+    opacity:100;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.discord:hover{
+    color:goldenrod;
+    font-size:30px;
+}
+
+.instagram{
+    color:rgb(108, 108, 117);
+    opacity:100;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.instagram:hover{
+    color:goldenrod;
+    font-size:30px;
+}
+
+
+.telegram{
+    color:rgb(108, 108, 117);
+    opacity:100;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.telegram:hover{
+    color:goldenrod;
+    font-size:30px;
+}
+
+
+.whatsapp{
+    color:rgb(108, 108, 117);
+    opacity:100;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.whatsapp:hover{
+    color:goldenrod;
+    font-size:30px;
+}
+
+
+.linkedin{
+    color:rgb(108, 108, 117);
+    opacity:100;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+.linkedin:hover{
+    color:goldenrod;
+    font-size:30px;
+}
+
+
+.github{
+    color:rgb(108, 108, 117);
+    opacity:100;
+    font-size:25px;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.github:hover{
+    color:goldenrod;
+    font-size:30px;
+}

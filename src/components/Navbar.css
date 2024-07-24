@@ -1,40 +1,66 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* Navbar.css */
 
 .nav {
     display: flex;
-    height: 80px;
     justify-content: space-between;
     align-items: center;
-    /*background-color: #0A1128; /* Add background color if needed */
-    padding: 0 20px;
-}
-
-.logo {
-    color: rgb(208, 213, 218);
-    font-size: 30px;
-}
-
-.green {
-    color: #0A994C;
-}
-
-.components {
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 28px;
+    
+  }
+  .logo:hover{
+    font-size:30px;
+  }
+  .comp {
     display: flex;
     list-style: none;
-    font-size: 20px;
-    color: rgb(205, 213, 220);
-    gap: 40px;
-}
+  }
+  
+  .comp li {
+    margin: 0 1rem;
+    position: relative;
+  }
+  
+  .comp li.active a {
+    color: green; /* Change the color of the active link */
+  }
+  
+  .comp li.active .line-home,
+  .comp li.active .line-aboutus,
+  .comp li.active .line-portfolio,
+  .comp li.active .line-skill,
+  .comp li.active .line-blogs,
+  .comp li.active .line-contact {
+    width: 100%; /* Adjust the underline to indicate active state */
+  }
+  
+  .line-home,
+  .line-aboutus,
+  .line-portfolio,
+  .line-skill,
+  .line-blogs,
+  .line-contact {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    transition: width 0.3s;
+  }
+  
+  .comp li:hover .line-home,
+  .comp li:hover .line-aboutus,
+  .comp li:hover .line-portfolio,
+  .comp li:hover .line-skill,
+  .comp li:hover .line-blogs,
+  .comp li:hover .line-contact {
+    width: 100%;
+  }
 
-.components a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.components a:hover {
-    color: #0A994C; /* Add hover effect if needed */
-}
+  .green-T{
+    color:#0A994C;
+  }

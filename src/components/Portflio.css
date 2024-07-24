@@ -20,6 +20,7 @@
 .box-p{
     display:flex;
     flex-direction: row;
+   
 }
 
 .myedu{
@@ -142,10 +143,14 @@ h3 {
     margin-top: 10px;
 }
 
-.para{
+.para-p{
     margin-top: 10px;
     font-size: 13px;
     color: rgb(148, 144, 146);
+}
+
+.para-p:hover{
+    color:#0A994C;
 }
 
 .education-background{

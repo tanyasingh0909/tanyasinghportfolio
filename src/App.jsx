@@ -3,8 +3,12 @@ import Hero from "./components/Hero"
 import About from "./components/About"
 import Technology from "./components/Technology"
 import Portfolio from "./components/Portfolio"
-import Slider from "./components/Slider";
-
+import Slider from "./components/Slider"
+import Skills from "./components/Skills"
+import Blogs from "./components/Blogs"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+import Terminal from "./components/Terminal"
 
 const App = () => {
   return (
@@ -15,12 +19,19 @@ const App = () => {
        
 </div>
 <div className="container mx-auto px-10">
+  
 <Navbar/>
 <Hero />
 <About/>
 <Portfolio/>
 <Slider/>
+<Terminal/>
+<Skills/>
 <Technology/>
+<Blogs/>
+<Contact/>
+<Footer/>
+
 
 
 </div>

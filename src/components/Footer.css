@@ -1,0 +1,30 @@
+.footer-a{
+    
+    width:1600px;
+   /* border: 1px solid rgb(54, 47, 47);*/
+   height:50px;
+    margin-top: 800px;
+   
+    background:none ;
+    position:relative;
+    left:-40px;
+   
+}
+.copyright-logo{
+    margin-top: 15px;
+    gap:12px;
+    margin-left: 500px;
+}
+
+.footer-b{
+    display:flex;
+    flex-direction:row;
+    color:goldenrod;
+   
+    gap:10px;
+}
+.para{
+    margin-top:12px;
+    font-size: 15px;
+    color:goldenrod;
+}

@@ -4,13 +4,15 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-    <div class='badadabba'>
+
+    <section id='Hero'>
+        <div class='badadabba'>
          <div class="dabba">
               <div class='box'> <div class="line"></div> <h1 class="hello">Hello </h1> </div>
                 <h1 class="tanya">I'm Tanya Singh</h1>
                 <h1 class='web'>Web Developer</h1>
-                <p class='text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam vero illo obcaecati amet, repellat mollitia explicabo repellendus earum laboriosam vitae omnis, reprehenderit accusantium qui architecto voluptatem tempore iure, rerum dolores. Aliquid harum quam quo sunt sint, accusamus repellendus atque doloribus delectus? Necessitatibus, optio quidem non repellat cumque quos labore repudiandae.</p>
-                 <a href='https://spectacular-cajeta-fb4e3a.netlify.app/' class='button'>Resume</a>
+                <p class='text'>Welcome to my portfolio! I'm Tanya Singh, a passionate and dedicated Web Developer & Designer with a love for creating innovative and efficient solutions. </p>
+                 <a href='https://spectacular-cajeta-fb4e3a.netlify.app/' class='button-resume'>Resume</a>
                 
             </div>
             <div class='pic'>
@@ -18,6 +20,8 @@ const Hero = () => {
             </div>
     </div>
           
+    </section>
+  
             
            
   )

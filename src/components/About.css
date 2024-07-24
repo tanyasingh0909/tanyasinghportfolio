@@ -4,7 +4,22 @@
     margin-left: 20px;
 
 }
+.about-h{
+    color:#0A994C ;
+    font-size: 35px;
+    margin-top: 0px;
+}
 
+.line-about{
+    border-top: 1px solid #0A994C ;
+    width:30px;
+    margin-top: 25px;
+}
+
+.box-about{
+    display:flex;
+    flex-direction: row;
+}
 .text-a{
     height:300px;
     width:700px;
@@ -14,6 +29,10 @@
     color: rgb(148, 144, 146);
     
     
+}
+
+.text-a:hover{
+    color:goldenrod;
 }
 
 .line-a{
@@ -42,3 +61,12 @@
     margin-bottom: 100px;
 
 }
+
+/*.para-box{
+
+    border:1px solid red;
+    height:200px;
+    width:400px;
+    position: absolute;
+    
+}*/

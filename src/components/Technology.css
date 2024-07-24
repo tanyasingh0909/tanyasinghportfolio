@@ -1,13 +1,13 @@
 .tech-h{
     color:#0A994C ;
     font-size: 35px;
-    margin-top: 1000px;
+    margin-top: 0px;
 }
 
-.line-t{
+.line-tech{
     border-top: 1px solid #0A994C ;
     width:30px;
-    margin-top: 1025px;
+    margin-top: 25px;
 }
 
 .box-t{
@@ -22,6 +22,12 @@
     background-color: black;
     border-radius: 10px;
   
+}
+
+.html-b:hover{
+    height:75px;
+    width:80px;
+    border:1px solid goldenrod;
 }
 
 .html{
@@ -42,6 +48,12 @@
   
 }
 
+.css-b:hover{
+ height:75px;
+    width:80px;
+    border:1px solid goldenrod;
+}
+
 .css{
     
     margin-top: 8px;
@@ -60,11 +72,40 @@
   
 }
 
+.js-b:hover{
+    height:75px;
+    width:80px;
+    border:1px solid goldenrod;
+}
+
 .js{
     
     margin-top: 8px;
    margin-left: 10px;
     color:orange;
+    font-size:50px;
+
+}
+
+.go-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.go-b:hover{
+    height:75px;
+    width:80px;
+    border:1px solid goldenrod;
+}
+
+.go{   
+    margin-top: 8px;
+   margin-left: 10px;
+    color:cyan;
     font-size:50px;
 
 }
@@ -76,6 +117,13 @@
     background-color: black;
     border-radius: 10px;
   
+}
+
+.react-b:hover{
+    
+        height:75px;
+        width:80px;
+        border:1px solid goldenrod;
 }
 
 .react{
@@ -96,11 +144,44 @@
   
 }
 
+.tailwind-b:hover{
+    height:75px;
+    width:80px;
+    border:1px solid goldenrod;
+
+}
+
 .tailwind{
     
     margin-top: 8px;
    margin-left: 10px;
     color:rgb(47, 47, 188);
+    font-size:50px;
+
+}
+
+
+.python-b{
+    height:70px;
+    width:70px;
+    border:1px solid black;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
+.python-b:hover{
+    height:75px;
+width:80px;
+border:1px solid goldenrod;
+}
+
+
+.python{
+    
+    margin-top: 8px;
+   margin-left: 10px;
+    color:rgb(211, 227, 27);
     font-size:50px;
 
 }
@@ -112,6 +193,12 @@
     background-color: black;
     border-radius: 10px;
   
+}
+
+.cpp-b:hover{
+    height:75px;
+    width:80px;
+    border:1px solid goldenrod;
 }
 
 .cpp{
@@ -128,7 +215,7 @@
     flex-direction: row;
     margin-top: 100px;
     gap:50px;
-    margin-left: 400px;
+    margin-left: 280px;
 }
 
 .lines-long{
@@ -142,71 +229,3 @@
 
 }
 
-
-.progress-circle {
-    position: relative;
-    width: 120px;
-    height: 120px;
-}
-
-.circle {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #e6e6e6;
-    overflow: hidden;
-}
-
-.mask, .fill {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.mask {
-    clip: rect(0px, 120px, 120px, 60px);
-}
-
-.mask .fill {
-    clip: rect(0px, 60px, 120px, 0px);
-    background-color: #3498db;
-}
-
-.mask.full, .fill.fix {
-    clip: rect(auto, auto, auto, auto);
-}
-
-.inset-circle {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 80%;
-    height: 80%;
-    background-color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    color: #3498db;
-}
-
-.progress-circle[data-progress="75"] .mask.full .fill {
-    transform: rotate(135deg);
-}
-
-.progress-circle[data-progress="75"] .mask.half .fill {
-    transform: rotate(180deg);
-}
-
-.progress-circle[data-progress="75"] .mask.half .fill.fix {
-    transform: rotate(45deg);
-}
-
-.percentage {
-    font-size: 1.5em;
-    color: #3498db;
-}

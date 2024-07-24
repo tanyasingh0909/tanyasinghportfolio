@@ -1,13 +1,17 @@
 
 import  './About.css'
+
 const About = () => {
   return (
-    <div class='bigbox'>
-      <div class='box-a'><h1 class='about'><div class='line-a'></div>About Me</h1></div>
-      <div class='text-a'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, velit asperiores quo ex, fugiat modi, sequi beatae ipsum eos reiciendis ducimus nulla consectetur obcaecati. Esse nulla iste iure expedita architecto recusandae harum eligendi, consequuntur, itaque at eaque quidem asperiores neque libero dignissimos eum illo provident? Nesciunt amet facere possimus accusamus ad quia sunt quod reiciendis maxime incidunt! Itaque repellendus aut, aliquam optio veniam vel nihil, tempora veritatis repellat laudantium sint labore error harum nulla ex esse. Quasi fuga corporis dolore nostrum laboriosam quaerat a possimus sequi officia? Sit reprehenderit, explicabo deserunt totam dolorem, impedit vero quas incidunt alias ducimus distinctio?</div>
+    <section id='About'>
+       <div class='bigbox'>
+   <div class='box-about'> <div class='line-about'></div><h1 class='about-h '>About Me</h1></div>
+     <div class='para-box'><div class='text-a'>My journey into the world of technology started with a fascination for how things work. Over the years, this curiosity has grown into a full-fledged career where I get to build and design projects that make a difference. From my first "Hello World" to sophisticated web-applications, every step has been an adventure in learning and creativity.I believe in the power of clean, efficient code and beautiful design. My approach is all about balance – ensuring that functionality meets aesthetics seamlessly. Collaboration, continuous learning, and attention to detail are my guiding principles.I'm always on the lookout for exciting projects and collaborations. Whether you have a project in mind or just want to talk tech, I'm here! Check out my work, and let's connect to create something amazing.</div></div> 
     <div class='line-long'></div>
     </div>
-  )
+  
+    </section>
+  ) 
 }
 
 export default About
